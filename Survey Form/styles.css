@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(201, 163, 121);
+}
+
+h1, p, form {
+  color: rgb(82, 51, 11);
+  text-align: center;
+  width: auto;
+}
+
+input, textarea {
+ margin: auto;
+}
+
+.full/part-time {
+  vertical-align: middle;
+  display: inline;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Software Engineer Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+     
+  <body>
+      <h1 id="title">Software Engineer Survey Form</h1>
+        <p id="description">Please fill this form out to be entered into our candidate pool.</p>
+
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label" >Name: <input id="name"      type="text" required placeholder="Name"/></label>
+          <label for="email" id="email-label" > Email: <input id="email" type="email" required placeholder="Email" /></label>
+          <label for="number" id="number-label">Age: <input id="number" type="number" min="1" max="100" placeholder="Age" />
+          </label>
+        </fieldset>
+
+      <fieldset>
+        <label for="dropdown" >Language you are most proficient in:
+          <select id="dropdown">
+            <option value="">(Select One)
+            </option>     
+            <option value="1">HTML
+            </option> 
+            <option value="2">CSS
+            </option> 
+            <option value="3">Javascript
+            </option>   
+            <option value="4">Python
+            </option> 
+            <option value="5">C++
+            </option> 
+            <option value="6">C#
+            </option> 
+            <option value="7">SQL
+            </option> 
+          </select>
+        </label>
+          <label for="full/part-time"><br>Looking for: <br>
+          <label for="full/part-time">Full-Time <input type="radio" id="full/part-time" value="full-time" name="full/part-time" /></label>
+          <label for="full/part-time">Part-Time <input type="radio" id="full/part-time" value="part-time" name="full/part-time" />         
+          </label>
+          </label>
+<br>
+          <label for="work-style">Work Style <br>
+            In-Person<input type="checkbox" id="work-style" value="in-person"/>
+            Remote<input type="checkbox" id="work-style" value="remote"/>
+            Hybrid<input type="checkbox" id="work-style" value="hybrid"/>
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+          <label>Anything else we should know about you: 
+            <textarea id="textarea" name="textarea" rows="3" cols="20">
+              </textarea>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <input type="submit" value="submit" id="submit"/>
+        </fieldset>
+
+      </form>  
+    </body>
+  </html>
